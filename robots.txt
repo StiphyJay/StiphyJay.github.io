@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://SifanZhou.github.io/sitemap.xml
+Sitemap: https://StiphyJay.github.io/sitemap.xml
