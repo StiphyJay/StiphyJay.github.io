@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Sifan Zhou</a>.
+subtitle: <a href='#'>Sifan Zhou</a>. sifanjay@gmail.com
 
 profile:
   align: right
@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a final-year Ph.D. Student at [Southeast University (SEU)](https://www.seu.edu.cn/). Besides, I am also a Visiting student at Carnegie Mellon University (CMU) [AIR Lab](https://theairlab.org/), advised by [Sebastian Scherer](https://theairlab.org/team/sebastian/) and [Wenshan Wang](https://theairlab.org/team/wenshan/). I am currently collaborating with [Shibo Zhao](https://shibowing.github.io/) and [Yuheng Qiu](http://yuhengqiu.com/) at CMU RI. I received my M.Eng. in Robotics from Northeastern University, Shenyang in 2021. 
+I am a final-year Ph.D. Student at [Southeast University (SEU)](https://www.seu.edu.cn/). Besides, I am also a Visiting student at Carnegie Mellon University (CMU) [AIR Lab](https://theairlab.org/), advised by [Sebastian Scherer](https://theairlab.org/team/sebastian/) and [Wenshan Wang](https://theairlab.org/team/wenshan/). I am currently collaborating with [Shibo Zhao](https://shibowing.github.io/) and [Yuheng Qiu](http://yuhengqiu.com/) at CMU RI. I received my M.Eng. in Robotics from Northeastern University, Shenyang in 2021, advised by [Zheng Fang](http://faculty.neu.edu.cn/fangzheng/zh_CN/index.htm). 
 <!-- 这里是注释： Write your biography here. Tell the world about yourself. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->  
 
 My research interests focus on **Efficient AI** (model compression/quantization for LLMs/MLLMs), **Spatial AI** (learning-based multi-sensor [LiDAR/Camera/IMU] perception for robotics), and **Embodied AI** (VLA/VLN for robotics).
