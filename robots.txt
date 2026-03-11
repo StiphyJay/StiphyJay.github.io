@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sifanzhou.github.io/sitemap.xml
+Sitemap: https://SifanZhou.github.io/sitemap.xml
