@@ -4,19 +4,20 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sifan
-middle_name: R.
-last_name: Zho
+# middle_name: R.
+last_name: Zhou
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Final-year Ph.D. Student at Southeast University (SEU) & Visiting student at CMU Robotics Institute (AIR Lab). 
+  Focusing on Efficient AI, Model Quantization for LLMs/MLLMs, Multi-sensor Perception for Robotics, and Autonomous Driving.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Efficient AI, Spatial AI, Embodied AI # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://StiphyJay.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
