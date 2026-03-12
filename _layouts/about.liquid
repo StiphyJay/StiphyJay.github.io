@@ -56,12 +56,33 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-  {% if page.honors %}
+   {% if page.honors %}
   <br>
-  <h2>
-    <a href="{{ '/honors/' | relative_url }}" style="color: inherit">honors and awards</a>
-  </h2>
-  {% include news.liquid limit=true news_source='honors' %}
+  <h2>honors and awards</h2>
+  {% assign honors_list = site.news | where: "category", "honors" %}
+  <div class="news">
+    {% if honors_list.size > 0 %}
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+          {% assign sorted_honors = honors_list | sort: 'date' | reverse %}
+          {% for item in sorted_honors %}
+            <tr>
+              <th scope="row" style="width: 20%">{{ item.date | date: "%b, %Y" }}</th>
+              <td>
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      <p>No honors so far...</p>
+    {% endif %}
+  </div>
 {% endif %}
 
    <!-- Latest posts -->
