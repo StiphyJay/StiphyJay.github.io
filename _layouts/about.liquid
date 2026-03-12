@@ -45,7 +45,12 @@ layout: default
   <h2>
     <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
   </h2>
-  {% assign news_items = site.news | rejectattr: "category", "equalto", "honors" %}
+  
+  {% comment %} 
+    使用 where_exp 排除 category 为 honors 的条目
+  {% endcomment %}
+  {% assign news_items = site.news | where_exp: "item", "item.category != 'honors'" %}
+  
   <div class="news">
     {% if news_items.size > 0 %}
       <div class="table-responsive">
