@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-UniF$^2$ace has been accepted to ICLR 2026. Congratulations, Keyang! :sparkles: :smile:
+UniF$^2$ace has been accepted to ICLR 2026. Congratulations, junzhe! :sparkles: :smile:
