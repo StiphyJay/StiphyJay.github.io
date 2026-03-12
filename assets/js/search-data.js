@@ -384,7 +384,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
+            },},{id: "news-national-scholarship-top-1",
+          title: 'National Scholarship (Top 1%)',
+          description: "",
+          section: "News",},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
