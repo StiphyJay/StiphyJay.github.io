@@ -17,4 +17,11 @@ nav_order: 2
 
 {% bibliography %}
 
+<div class="bib-notes" style="font-size: 0.85rem; margin-top: 10px; text-align: left;">
+  <p>
+    * indicates equal contribution. <br>
+    # indicates corresponding author.
+  </p>
+</div>
+
 </div>
