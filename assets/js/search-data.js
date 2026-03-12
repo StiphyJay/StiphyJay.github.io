@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-aaai-2026-student-travel-award",
         
-          title: "a post with plotly.js",
+          title: "AAAI 2026 Student Travel Award",
         
         description: "this is what included plotly.js code could look like",
         section: "Posts",
