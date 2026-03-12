@@ -390,12 +390,10 @@ ninja.data = [{
           section: "News",},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-unif-2-ace-has-been-accepted-to-iclr-2026-congratulations-keyang-sparkles-smile",
+          title: 'UniF$^2$ace has been accepted to ICLR 2026. Congratulations, Keyang! :sparkles: :smile:',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-yo-city-has-been-accepted-to-cvpr-2026-congratulations-keyang-sparkles-smile",
+          section: "News",},{id: "news-yo-city-has-been-accepted-to-cvpr-2026-congratulations-keyang-sparkles-smile",
           title: 'Yo’City has been accepted to CVPR 2026. Congratulations, Keyang! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-national-scholarship-top-1",
