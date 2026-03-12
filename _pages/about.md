@@ -35,3 +35,19 @@ My long-term research vision is to enable natural interaction and seamless colla
 <strong><span style="color:red">I am on the job market and actively seeking full-time research scientist/engineer opportunities starting in 2026.</span></strong>
 
 </div>
+
+<br>
+
+{% if page.selected_papers -%}
+  ## **selected publications**
+  {% bibliography -f {{ site.bibliography }} -q @*[selected=true]* %}
+{%- endif %}
+
+<br>
+
+## **honors and awards**
+<div style="text-align: justify;" markdown="1">
+* **National Scholarship**, Ministry of Education of China, 2024.
+* **ICRA 2025 Student Travel Award**, IEEE Robotics & Automation Society, 2025.
+* **Outstanding Graduate**, Northeastern University, 2021.
+</div>
