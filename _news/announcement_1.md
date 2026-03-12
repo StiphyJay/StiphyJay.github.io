@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**GSRender** has been accepted to ICRA 2026. Congratulations, Qianpu!
+**GSRender** has been accepted to ICRA 2026. Congratulations, Qianpu!  :sparkles: :smile:
