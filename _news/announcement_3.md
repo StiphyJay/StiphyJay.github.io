@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Yo'City has been accepted to CVPR 2026. Congratulations, Keyang! :sparkles: :smile:
+**Yo'City** has been accepted to CVPR 2026. Congratulations, Keyang! :sparkles: :smile:
