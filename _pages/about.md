@@ -9,6 +9,15 @@ profile:
   image: sifan.jpg
   image_circular: false # crops the image to make it circular
 
+  more_info: >
+    <style>
+      .profile img {
+        width: 200px !important; /* 你可以调整这个数值，比如 200px */
+        height: auto !important;
+      }
+    </style>
+    <p>Monterey Park, Los Angeles</p>
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
