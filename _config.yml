@@ -7,7 +7,7 @@ first_name: Sifan
 # middle_name: R.
 last_name: Zhou
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Any question, please contact me: sifanjay@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Final-year Ph.D. Student at Southeast University (SEU) & Visiting student at CMU Robotics Institute (AIR Lab). 
   Focusing on Efficient AI, Model Quantization for LLMs/MLLMs, Multi-sensor Perception for Robotics, and Autonomous Driving.
