@@ -40,7 +40,7 @@ My long-term research vision is to enable natural interaction and seamless colla
 
 {% if page.selected_papers -%}
   ## **selected publications**
-  {% bibliography -f {{ site.bibliography }} -q @*[selected=true]* %}
+  {% bibliography -f papers.bib -q @*[selected=true]* %}
 {%- endif %}
 
 <br>
