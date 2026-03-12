@@ -42,11 +42,34 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
+  <h2>
+    <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+  </h2>
+  {% assign news_items = site.news | rejectattr: "category", "equalto", "honors" %}
+  <div class="news">
+    {% if news_items.size > 0 %}
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+          {% assign sorted_news = news_items | sort: 'date' | reverse %}
+          {% for item in sorted_news limit: page.announcements.limit %}
+            <tr>
+              <th scope="row" style="width: 20%">{{ item.date | date: "%b %d, %Y" }}</th>
+              <td>
+                {% if item.inline %}
+                  {{ item.content | remove: '<p>' | remove: '</p>' }}
+                {% else %}
+                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      <p>No news so far...</p>
     {% endif %}
+  </div>
+{% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
@@ -80,7 +103,7 @@ layout: default
         </table>
       </div>
     {% else %}
-      <p>No honors so far...</p>
+      <p>No  so far...</p>
     {% endif %}
   </div>
 {% endif %}
