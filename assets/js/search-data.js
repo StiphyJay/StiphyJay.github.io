@@ -20,7 +20,7 @@ ninja.data = [{
         
           title: "AAAI 2026 Student Travel Award",
         
-        description: "this is what included plotly.js code could look like",
+        description: "",
         section: "Posts",
         handler: () => {
           
