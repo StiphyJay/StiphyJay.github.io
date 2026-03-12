@@ -16,9 +16,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-aaai-2026-student-travel-award",
+        },{id: "post-plotly",
         
-          title: "AAAI 2026 Student Travel Award",
+          title: "Plotly",
         
         description: "",
         section: "Posts",
