@@ -28,7 +28,7 @@ announcements:
 honors: true
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 4 # leave blank to include all the blog posts
 ---
