@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Being invited to serve as a reviewer for **[The IEEE Transactions on Robotics (T-RO)](https://www.ieee-ras.org/publications/t-ro/)(Top journal in Robotics)**. :sparkles: :smile:
+Being invited to serve as a reviewer for **[IEEE Transactions on Robotics (T-RO)](https://www.ieee-ras.org/publications/t-ro/)(Top journal in Robotics)**. :sparkles: :smile:
