@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Being invited to serve as an **Area Chair** for **[NeurIPS 2026](https://neurips.cc/)**. :sparkles: :smile:
+Being invited to serve as **Area Chair** for **[NeurIPS 2026](https://neurips.cc/)**. :sparkles: :smile:
