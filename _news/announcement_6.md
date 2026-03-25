@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Being invited to serve as a reviewer for **[International Journal of Robotics Research (IJRR)](https://journals.sagepub.com/home/IJR)(Top journal in Robotics)**. :sparkles: :smile:
+Being invited to serve as reviewer for **[International Journal of Robotics Research (IJRR)](https://journals.sagepub.com/home/IJR)(Top journal in Robotics)**. :sparkles: :smile:
