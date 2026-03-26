@@ -26,6 +26,7 @@ announcements:
   limit: 10 # leave blank to include all the news in the `_news` folder
 
 honors: true
+academic_service: true
 
 latest_posts:
   enabled: false
