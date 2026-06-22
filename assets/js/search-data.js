@@ -427,7 +427,7 @@ ninja.data = [{
           title: 'Being invited to serve as reviewer for International Journal of Robotics Research (IJRR)(Top...',
           description: "",
           section: "News",},{id: "news-visnec-and-ibla-have-been-accepted-to-eccv-2026-congratulations-mingjia-and-mingkang-sparkles-smile",
-          title: 'Visnec and IBLA have been accepted to ECCV 2026. Congratulations, Mingjia and Mingkang!...',
+          title: 'VisNec and IBLA have been accepted to ECCV 2026. Congratulations, Mingjia and Mingkang!...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
