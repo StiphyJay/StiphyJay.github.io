@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[VisNec](https://arxiv.org/abs/2603.01195)** and **IBLA** have been accepted to **ECCV 2026**. Congratulations, Mingjia and Mingkang! :sparkles: :smile:
+**[VisNec](https://arxiv.org/abs/2603.01195)** and **[IBLA](https://arxiv.org/pdf/2607.08194)** have been accepted to **ECCV 2026**. Congratulations, Mingjia and Mingkang! :sparkles: :smile:
